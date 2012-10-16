@@ -27,8 +27,8 @@ other capabilities of the specified user levels, however, will remain the same.
 
 == Installation ==
 
-1. Download the nopage.zip file
-2. Upload and extract the contents of nopage.zip to your wp-content/plugins/folder
+1. Download the wp-restrict-user-add-new-page-capability.zip file
+2. Upload and extract the contents of wp-restrict-user-add-new-page-capability/.zip to your wp-content/plugins/folder
 3. Activate the WP Restrict User 'ADD NEW PAGE' Capability in your WP-admin
 4. Done!
 
@@ -48,8 +48,8 @@ None
 
 == Screenshots ==
 
-1.Before activating the plugin
-2.After activating the plugin
+1. Before activating the plugin
+2. After activating the plugin
 
 == Changelog ==
 
@@ -61,4 +61,4 @@ First Release Version
 
 == Thumbs Up ==
 
-Like our WP antiProxy plugin? Don't forget to give us a rating.
+Like our WP plugin? Don't forget to give us a rating.
