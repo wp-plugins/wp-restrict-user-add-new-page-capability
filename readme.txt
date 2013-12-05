@@ -1,11 +1,11 @@
-=== WP Restrict User 'ADD NEW PAGE' Capability ===
+=== Remove 'ADD NEW PAGE' (non-admin users) ===
 
 Contributors: RS Publishing
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FW2K3299SKTR4
-Tags: restrict, non-admin, user, capability, role, prevent, limits, new-page, remove, stop, hide, disable, add new, page
+Tags: restrict, non-admin, user, user role, prevent, limit, new page, remove, stop, hide, disable, add new, page
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J4K6DUP2M4XMC
 Requires at least: 2.7
-Tested up to: 3.4.2
-Stable tag: 1.0
+Tested up to: 3.7.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,12 +39,13 @@ None
 
 == Feedback, Questions, Help, and Suggestions ==
 
-Just post a mail to: rcstoltz@gmail.com with email subject: WP Restrict User 'ADD NEW PAGE' Capability
+Just post a mail to: rcstoltz@gmail.com with email subject: Remove 'ADD NEW PAGE'
 
 
 == Upgrade Notice ==
 
-None
+= Version 1.0.1 = 
+
 
 == Screenshots ==
 
@@ -53,11 +54,19 @@ None
 
 == Changelog ==
 
-None
-
 = Version 1.0 =
 
 First Release Version
+
+= 1.0.1 =
+
+* tested compatibility with v3.7.1
+* added blank index file to trunk (security)
+* truncated initial plugin name
+* included donation link
+* included temp banner
+* updated keywords
+* updated readme
 
 == Thumbs Up ==
 
