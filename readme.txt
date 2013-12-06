@@ -1,6 +1,6 @@
 === Remove 'ADD NEW PAGE' (non-admin users) ===
 
-Contributors: RS Publishing
+Contributors: RSPublishing
 Tags: restrict, non-admin, user, user role, prevent, limit, new page, remove, stop, hide, disable, add new, page
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J4K6DUP2M4XMC
 Requires at least: 2.7
@@ -64,6 +64,7 @@ First Release Version
 * added blank index file to trunk (security)
 * truncated initial plugin name
 * included donation link
+* corrected author name
 * included temp banner
 * updated keywords
 * updated readme
