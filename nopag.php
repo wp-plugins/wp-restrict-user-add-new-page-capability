@@ -1,16 +1,16 @@
 <?php
 
 /*
-  Plugin Name: Remove 'ADD NEW PAGE' (from non-admin users)
+  Plugin Name: Remove 'new page' (non-admin users)
   Plugin URI: http://wordpress.org/extend/plugins/wp-restrict-user-add-new-page-capability/
   Description: This plugin will disable all non-admin users from creating new pages in your blog. The "add new - Page" submenu item will also be hidden in the users dashboard.
-  Version: 1.0.1
-  Author: RS Publishing
+  Version: 1.0.2
+  Author: RSPublishing
   License: GPLv2
  */
 
 /*
-  Copyright 2012  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
+  Copyright 2013/2014  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -48,8 +48,7 @@ function men_mod() {
 
 function hide_anbu() {
   global $current_screen;
-  if($current_screen->id == 'edit-page' && !current_user_can('publish_pages'))
-  {
+  if($current_screen->id == 'edit-page' && !current_user_can('publish_pages')) {
     echo '<style>.add-new-h2{display: none;}</style>';
   	}
   }
@@ -66,8 +65,8 @@ function dbo_noti() {
 }
 
 function perm_notice() {
-  if($_GET['permissions_error'])
-  {
+
+  if($_GET['permissions_error']) {
     add_action('admin_notices', 'dbo_noti');
   }
 }

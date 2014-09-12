@@ -3,14 +3,13 @@
 Contributors: RSPublishing
 Tags: restrict, non-admin, user, user role, prevent, limit, new page, remove, stop, hide, disable, add new, page
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J4K6DUP2M4XMC
-Requires at least: 2.7
-Tested up to: 3.7.1
-Stable tag: 1.0.1
+Requires at least: 3.1
+Tested up to: 4.0
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin will disable all non-admin users (with capabilities), from creating and adding new pages in your blog.
-
+This plugin will disable all non-admin users (with sufficient capability), from creating and adding new pages in your blog.
 
 == Description ==
 
@@ -44,7 +43,7 @@ Just post a mail to: rcstoltz@gmail.com with email subject: Remove 'ADD NEW PAGE
 
 == Upgrade Notice ==
 
-= Version 1.0.1 = 
+= Version 1.0.2 = 
 
 
 == Screenshots ==
@@ -69,6 +68,11 @@ First Release Version
 * updated keywords
 * updated readme
 
-== Thumbs Up ==
+= 1.0.2 =
 
-Like our WP plugin? Don't forget to give us a rating.
+* tested compatibility with v4.0
+* general housekeeping
+
+== Donations ==
+
+Should you feel like being awesome and dropping us a donation (which is much appreciated), please do so via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J4K6DUP2M4XMC) OR come and see us at [Securiilock] (http://www.securiilock.com) to see what else we have for you.
