@@ -36,7 +36,7 @@ None
 
 == Feedback, Questions, Help, and Suggestions ==
 
-Just post a mail to: rcstoltz@gmail.com with email subject: Remove 'ADD NEW PAGE'
+Just post a mail to: support@yooplugins.com with email subject: Remove 'ADD NEW PAGE' or visit us at [YOOPlugins](http://yooplugins.com/)
 
 
 == Upgrade Notice ==
