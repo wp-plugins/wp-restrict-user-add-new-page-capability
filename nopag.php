@@ -1,10 +1,10 @@
 <?php
 
 /*
-  Plugin Name: Remove 'new page' (non-admin users)
+  Plugin Name: Remove ADD NEW PAGE Capability (from non-admin users)
   Plugin URI: http://yooplugins.com/
-  Description: This plugin will disable all non-admin users from creating new pages in your blog. The "add new - Page" submenu item will also be hidden in the users dashboard.
-  Version: 1.0.3
+  Description: This plugin will disable all non-admin users from creating new pages in your blog. The submenu item will also be hidden in the users dashboard.
+  Version: 1.1
   Author: RSPublishing
   Author URI: http://yooplugins.com/
   License: GPLv2 or later
@@ -12,7 +12,7 @@
  */
 
 /*
-  Copyright 2013/2014  Rynaldo Stoltz  (email : support@yooplugins.com)
+  Copyright 2014/2015  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -28,6 +28,16 @@
   along with this program; if not, write to the Free Software
   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
+
+function rate_wpnp($links, $file) {
+	if ($file == plugin_basename(__FILE__)) {
+		$rate_url = 'http://wordpress.org/support/view/plugin-reviews/' . basename(dirname(__FILE__)) . '?rate=5#postform';
+		$links[] = '<a href="' . $rate_url . '" target="_blank" title="Click here to rate and review this plugin on WordPress.org">Rate this plugin</a>';
+	}
+	return $links;
+}
+
+add_filter('plugin_row_meta', 'rate_wpnp', 10, 2);
 
 add_action('admin_init','capb_mod');
 add_action('admin_menu','men_mod');
