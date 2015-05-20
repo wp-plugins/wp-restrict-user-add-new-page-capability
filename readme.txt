@@ -1,4 +1,4 @@
-=== Remove ADD NEW PAGE Capability (from non-admin users) ===
+=== Remove ADD NEW PAGE Capability ===
 
 Contributors: RSPublishing
 Tags: restrict, non-admin, user, user role, prevent, limit, new page, remove, stop, hide, disable, add new, page
