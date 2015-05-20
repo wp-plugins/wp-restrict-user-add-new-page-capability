@@ -5,7 +5,7 @@ Tags: restrict, non-admin, user, user role, prevent, limit, new page, remove, st
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J4K6DUP2M4XMC
 Requires at least: 3.1
 Tested up to: 4.1.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,9 +14,14 @@ This plugin will disable all non-admin users (with sufficient capability), from 
 == Description ==
 
 This plugin will disable all non-admin users (with capabilities), from creating and adding new pages in your blog.
+
 Works very well with the 'WP Restrict User 'ADD NEW POST' plugins (that prevents non-admin users from creating and adding new POSTS), to your blog. 
+
 The "add new page" submenu will also be hidden from the non-admin user.
 
+= About = 
+
+The Remove ADD NEW PAGE Capability plugin is maintained by [YOOPlugins.com](http://yooplugins.com/)
 
 == User Posting Capabilities with this plugin ==
 
@@ -41,7 +46,7 @@ Just post a mail to: rcstoltz@gmail.com with email subject: Remove 'ADD NEW PAGE
 
 == Upgrade Notice ==
 
-= Version 1.1 = 
+= Version 1.2 = 
 
 == Screenshots ==
 
@@ -78,3 +83,9 @@ none
 * renamed plugin name
 * added rating link
 * added icons
+
+= 1.2 =
+* tested compatibility with core 4.2.2
+* added banner and icon assets
+* updated version number
+* general housekeeping
